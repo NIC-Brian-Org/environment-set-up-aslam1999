@@ -4,7 +4,8 @@ console.log("main.js");
   window.addEventListener("load", (event) => {
     const number1 = document.getElementById("number1");
     const number2 = document.getElementById("number2");
-    const product = document.getElementById("product");
+    const operation = document.getElementById("operation");
+    const result = document.getElementById("result");
 
     const update = () => {
       product.innerHTML =
